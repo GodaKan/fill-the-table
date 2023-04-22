@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+*{
+    /* margin: 0; */
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Open Sans;
+}
+
+input{
+    border: 2px solid grey;
+    border-radius: 3px;
+    min-width: 230px;
+    padding: 3px;
+    margin-bottom: 10px;
+}
+
+button{
+    border: 2px solid grey;
+    border-radius: 3px;
+    min-width: 230px;
+    padding: 3px;
+    margin-bottom: 10px;
+}
+
+table {
+    width: 700px;
+    border-collapse: collapse;
+}
+
+th {
+    border: 2px solid rgb(255, 188, 27);
+    padding: 20px;
+}
+
+.surname {
+    background: rgb(229, 174, 48);
+}
+
+th {
+    text-transform: uppercase;
+    background: rgb(255, 188, 27);
+}
+
+td {
+    color: white;
+    background: rgb(56, 44, 110);
+    border: 2px solid rgb(255, 188, 27);
+    padding: 20px;
+}
+
+.td {
+    color: white;
+    background: rgb(56, 44, 110);
+    border: 2px solid rgb(255, 188, 27);
+    padding: 20px;
+}
